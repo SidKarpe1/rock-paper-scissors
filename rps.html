@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>rock paper scissors</title>
+        <link rel="stylesheet" href="rps.css">
+        <script src="rps.js"></script>
+
+    </head>
+    <body>
+        <div class="Score">
+        <h1>Score Keeper</h1>
+        <div>
+        <table id="Board">
+            <tr>
+                <th>Player</th>
+                <th>Computer</th>
+            </tr>
+            <tr>
+                <td id="playerScore">0</td>
+                <td id="computerScore">0</td>
+            </tr>
+           </table>
+        </div>
+        </div>
+        <div class="buttons">
+            <button onclick="playRound('rock')"><img src="rock.png"></button>
+            <button onclick="playRound('paper')"><img src="paper.png"></button>
+            <button onclick="playRound('scissors')"><img src="scissors.png"></button>
+        </div>
+    </div>
+    </body>
+</html>
